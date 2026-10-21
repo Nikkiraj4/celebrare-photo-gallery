@@ -2,7 +2,7 @@
 function PhotoCard({ photo, isFavourite, onToggleFavourite }) {
   return (
     <article className="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-shadow duration-200 hover:shadow-md">
-      <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+      <div className="aspect-4/3 overflow-hidden bg-gray-100">
         <img
           src={`https://picsum.photos/id/${photo.id}/600/450`}
           alt={`Photo by ${photo.author}`}
